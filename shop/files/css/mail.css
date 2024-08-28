@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content: center;
+}
+.mail{
+    width:600px;
+}
+.mail a{
+    color:rgb(190,160,66);
+}
+.mail > div{
+    padding:22px;
+}
+.mail > div:first-child{
+    background:rgb(190,160,66);
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    display:flex;
+    align-items:center;
+}
+.mail > div:first-child img{
+    height:50px;
+    filter: brightness(0%) invert(1);
+}
+.mail > div:nth-child(2){
+    border:1px solid rgba(0,0,0,0.12);
+    border-bottom:none;
+}
+.mail > div:nth-child(2) p{
+    line-height:150%;
+    color:rgba(0,0,0,0.8)
+
+}
+.mail > div:last-child{
+    display:flex;
+    flex-direction:column;				
+    background: rgba(0,0,0,0.1);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size:14px;
+}
+.mail > div:last-child > div{
+    margin-bottom:10px;
+}
+.mail > div:last-child p{
+    margin-bottom:10px;
+    line-height: 120%;
+    color:rgba(0,0,0,0.5);
+}
